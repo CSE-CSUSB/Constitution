@@ -1,4 +1,6 @@
-# Preamble
+# Constitution
+
+## Preamble
 
 We, the undersigned, wishing to secure for ourselves the pleasures and benefits of an association of those interested in Computer Science and Engineering, enact this constitution as our governing law.
 
