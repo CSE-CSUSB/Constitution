@@ -1,0 +1,193 @@
+#!/usr/bin/env python
+from argparse    import ArgumentParser
+from collections import OrderedDict
+from os          import listdir, system, makedirs
+from os.path     import exists, isfile, join, splitext
+from shutil      import rmtree
+from sys         import exit
+
+
+color_output = True
+
+
+src_dir    = "./"
+dest_dir   = "dest/"
+assets_dir = "assets/"
+args = ' '.join([
+    "-S",
+    "--normalize",
+    "--section-divs",
+    "-s",
+    "--toc",
+    "-N"
+])
+
+
+
+if color_output:
+    class bcolors:
+        HEADER  = '\033[95m'
+        OKBLUE  = '\033[94m'
+        OKGREEN = '\033[92m'
+        WARNING = '\033[93m'
+        FAIL    = '\033[91m'
+        ENDC    = '\033[0m'
+else:
+    class bcolors:
+        HEADER  = ''
+        OKBLUE  = ''
+        OKGREEN = ''
+        WARNING = ''
+        FAIL    = ''
+        ENDC    = ''
+
+
+
+def getFilesInPath(path):
+    """
+    Get the files from a given directory.
+
+    getFilesInPath :: Str -> [Str]
+    """
+    return [file for file in listdir(path) if isfile(join(path, file))]
+
+
+
+def stripExtension(file_name):
+    """
+    Strip the extension from a file name.
+
+    stripExtension :: Str -> Str
+    """
+    return splitext(file_name)[0]
+
+
+
+def getNamesAndPaths(directory):
+    """
+    Gets names and paths of all files in a given directory, returning them as
+    an associative array.
+
+    getNamesAndPaths :: Str -> OrderedDict
+    """
+    files = getFilesInPath(directory)
+    results = OrderedDict()
+    for file in files:
+        results[stripExtension(file)] = file
+    return results
+
+
+
+def which(program):
+    """
+    Analogous to the terminal command `which`. Is used for checking whether a
+    given binary exists on the current system.
+
+    which :: Str -> Str|None
+    """
+    import os
+    def is_exe(fpath):
+        return os.path.isfile(fpath) and os.access(fpath, os.X_OK)
+
+    fpath, fname = os.path.split(program)
+    if fpath:
+        if is_exe(program):
+            return program
+    else:
+        for path in os.environ["PATH"].split(os.pathsep):
+            path = path.strip('"')
+            exe_file = os.path.join(path, program)
+            if is_exe(exe_file):
+                return exe_file
+
+    return None
+
+
+
+def hasPandoc():
+    """
+    Checks whether `pandoc` is available on the current system.
+
+    hasPandoc :: Bool
+    """
+    return which("pandoc") != None
+
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument(
+        "-v",
+        "--version",
+        action = "version",
+        version = "%(prog)s 1.0",
+        help = "print the current version."
+        )
+    parser.add_argument(
+        "-c",
+        "--clean",
+        action = "store_true",
+        help = "clean out constructed files."
+        )
+    parsed_args = parser.parse_args()
+
+    # Clean out constructed files.
+    if parsed_args.clean:
+        print bcolors.WARNING + "Deleting constructed files..." + bcolors.ENDC
+        rmtree(dest_dir)
+        makedirs(dest_dir)
+        print bcolors.OKGREEN + "Files deleted." + bcolors.ENDC
+        exit()
+
+    # Construct the files.
+    print "Beginning document creation."
+    print "\tChecking for Pandoc..."
+    # Check for pandoc
+    if not hasPandoc():
+        print bcolors.WARNING + "\tPlease install pandoc before continuing" + bcolors.ENDC
+        exit()
+    print bcolors.OKGREEN + "\tPandoc found." + bcolors.ENDC
+
+    if not exists(dest_dir):
+        makedirs(dest_dir)
+
+    print "\tGetting source files..."
+    # Get Markdown source files from the current directory.
+    all_files = getNamesAndPaths(src_dir)
+    source_files = {i:j for i, j in all_files.iteritems() if j[-3:] == ".md" and j[:-3] != "README"}
+    print bcolors.OKGREEN + "\tSource files loaded." + bcolors.ENDC
+
+    # Build HTML, PDF, and docx
+    for name, filename in source_files.iteritems():
+        print "\tBeginning build for {}".format(filename)
+        print bcolors.OKBLUE + "\t\tBuilding {}{}.html".format(dest_dir, name) + bcolors.ENDC
+        system(
+            "pandoc {} {} {} -o {} {}".format(
+                args,
+                "--template=" + assets_dir + "template.html",
+                "--css=../" + assets_dir + "main.css",
+                dest_dir + name + ".html",
+                src_dir + filename
+            )
+        )
+        print bcolors.OKBLUE + "\t\tBuilding {}{}.pdf".format(dest_dir, name) + bcolors.ENDC
+        system(
+            "pandoc {} {} -o {} {}".format(
+                args,
+                "--template=" + assets_dir + "template.tex",
+                dest_dir + name + ".pdf",
+                src_dir + filename
+            )
+        )
+        print bcolors.OKBLUE + "\t\tBuilding {}{}.docx".format(dest_dir, name) + bcolors.ENDC
+        system(
+            "pandoc {} -o {} {}".format(
+                args,
+                dest_dir + name + ".docx",
+                src_dir + filename
+            )
+        )
+        print bcolors.OKGREEN + "\tBuild for {} complete.".format(filename) + bcolors.ENDC
+    print bcolors.OKGREEN + "Build complete. All files can be found in `{}`".format(dest_dir) + bcolors.ENDC
+
+
