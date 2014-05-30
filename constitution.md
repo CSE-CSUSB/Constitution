@@ -2,12 +2,9 @@
 
 # Necessary Changes
 
-<div class='alert'>
-1. Voting rules must be established and agreed upon
-2. The Finances section must be rewritten to comply with University and ACM rules
-3. The Constitution must be checked against the ACM rules for student organizations
-4. Footnotes must be added where necessary to include proper reference to external documents
-</div>
+> 1. Voting rules must be established and agreed upon
+> 2. The Finances section must be rewritten to comply with University and ACM rules
+> 3. The Constitution must be checked against the ACM rules for student organizations
 
 # Preamble
 
@@ -141,10 +138,6 @@ Amendments to the Constitution may be made according to the following procedure:
 
 # Voting
 
-<div class='alert'>
-__TODO__: Set standard voting procedure.
-</div>
-
 - To be decided (input via email is appreciated)
 
 # Elections
@@ -192,10 +185,6 @@ A quorum for a standard meeting shall be defined as the Secretary (or another bo
 Meetings are to be held at least once a month, at a schedule determined at the start of each quarter, according to the input of the membership and the availability of the officers.
 
 # Finances
-
-<div class='alert'>
-__TODO__: Revise to be consistent with new University rules.
-</div>
 
 ## Banking
 
