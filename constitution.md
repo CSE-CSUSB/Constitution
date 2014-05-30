@@ -4,7 +4,6 @@
 
 > 1. Voting rules must be established and agreed upon
 > 2. The Finances section must be rewritten to comply with University and ACM rules
-> 3. The Constitution must be checked against the ACM rules for student organizations
 
 # Preamble
 
@@ -196,7 +195,7 @@ In the event that this organization does not becomes and remains inactive during
 
 # Advisors
 
-Advisors will be selected at the discretion of the Board of officers with a two-thirds majority vote. Advisors will be re-affirmed automatically on a yearly basis unless the desire to step down has been noted or the Board wishes to include other advisors. An Advisor may be removed from position via the Impeachment procedure prescribed for the removal of Board Members.
+Advisors will be selected at the discretion of the Board of officers with a two-thirds majority vote. Advisors will be re-affirmed automatically on a yearly basis unless the desire to step down has been noted or the Board wishes to include other advisors. An Advisor may be removed from position via the Impeachment procedure prescribed for the removal of Board Members. At least one advisor must be an ACM Professional Member in good standing.
 
 # Non-discrimination
 
