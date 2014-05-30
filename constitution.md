@@ -45,8 +45,8 @@ This Constitution shall be the supreme ruling document for the Computer Science 
 
 - All members must pay their dues for the quarters during which they wish to retain membership. Such dues must be payed in the amount defined in the By-Laws
 - All members must meet minimum activity requires, as set in the By-Laws. If such requirements are not met, the member (assuming all dues are paid), shall be considered inactive, and will be unable to take advantage of club offerings requiring active membership status.
-- All members must follow the University Code of Conduct
-- All members must follow the ACM Code of Ethics
+- All members must follow the University Code of Conduct[^studentconduct]
+- All members must follow the ACM Code of Ethics[^acmethics]
 
 ## Expulsion
 
@@ -224,3 +224,6 @@ The Computer Science and Engineering Club membership and leadership must be open
 # Off-Campus Issues
 
 The Computer Science and Engineering Club, or its members, when taking stands on issues, recognizes and will fulfill its obligation to make clear that it in no way represents the official position of the California State University, San Bernardino.
+
+[^studentconduct]: http://www.admissions.csusb.edu/studentconduct/documents/CONDUCT09_000.pdf
+[^acmethics]: http://www.acm.org/about/code-of-ethics
