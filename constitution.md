@@ -1,10 +1,5 @@
 % CSE Club Constitution
 
-# Necessary Changes
-
-> 1. Voting rules must be established and agreed upon
-> 2. The Finances section must be rewritten to comply with University and ACM rules
-
 # Preamble
 
 We, the undersigned, wishing to secure for ourselves the pleasures and benefits of an association of those interested in Computer Science and Engineering, enact this constitution as our governing law.
@@ -40,9 +35,9 @@ This Constitution shall be the supreme ruling document for the Computer Science 
 ## Requirements
 
 - All members must pay their dues for the quarters during which they wish to retain membership. Such dues must be payed in the amount defined in the By-Laws
-- All members must meet minimum activity requires, as set in the By-Laws. If such requirements are not met, the member (assuming all dues are paid), shall be considered inactive, and will be unable to take advantage of club offerings requiring active membership status.
-- All members must follow the University Code of Conduct[^studentconduct]
-- All members must follow the ACM Code of Ethics[^acmethics]
+- All members must meet minimum activity requirements, as set in the By-Laws. If such requirements are not met, the member (assuming all dues are paid), shall be considered inactive, and will be unable to take advantage of club offerings requiring active membership status.
+- All members must adhere to the University Code of Conduct[^studentconduct]
+- All members must adhere to the ACM Code of Ethics[^acmethics]
 
 ## Expulsion
 
@@ -83,7 +78,7 @@ The Officers shall be the President, the Vice-President, the Treasurer and the S
 
 ## President
 
-The President serves as the executive officer of the Club, and is responsible for its operaitons. The President acts as the Club’s primary spokesperson and representative. The President has the power of appointment to Cabinet positions if a mid-year vacancy occurs, and to Coordinator positions year-round. Such nominations are subject to a simple majority vote of approval by the Board.
+The President serves as the executive officer of the Club, and is responsible for its operatons. The President acts as the Club’s primary spokesperson and representative. The President has the power of appointment to Cabinet positions if a mid-year vacancy occurs, and to Coordinator positions year-round. Such nominations are subject to a simple majority vote of approval by the Board.
 
 ## Vice President
 
@@ -95,7 +90,7 @@ The Treasurer shall be responsible for all accounts and bookkeeping of funds for
 
 ## Secretary
 
-The Secretary shall keep all Club documents, shall attend all meetings to the best of their ability, and shall stand as the final source of information about the Club's rules and history.
+The Secretary shall keep and be responsible for all Club documents, shall attend all meetings to the best of their ability, and shall stand as the final source of information about the Club's rules and history. The documents that shall be accounted for, at a minimum, are: meeting minutes, event attendance, membership records, the Constitution and its bylaws. 
 
 ## Requirements
 
@@ -125,7 +120,7 @@ Cabinet members are considered full voting members of the Board, and are elected
 
 Coordinators are appointed officials tasked with the supervision or support of a narrow and specific set of duties agreed upon by the Board. Coordinators are appointed by the President per the standard appointment procedure, and can be selected from the Board itself or from the general membership. Coordinators shall be responsible for the tasks prescribed for them, and shall be accountable for their progress to the Board. If such progress is unsatisfactory or inconsistent with the Board's expectations, the Coordinator position may be dissolved by a simple majority vote of the Board, excluding any affected Board Member.
 
-Coordinators shall be allowed to attend Board Meetings, but shall be given a vote. If a Board Member is also a Coordinator, they shall not received any additional votes beyond the one vote allowed to them in their capacity as a Member of the Board.
+Coordinators shall be allowed to attend Board Meetings, but shall not be given an explicit vote.
 
 # Amendments
 
@@ -133,11 +128,21 @@ Amendments to the Constitution may be made according to the following procedure:
 
 - The amendment is proposed and discussed at a meeting
 - If approved by a majority vote at the meeting of some portion of the active membership to be defined in the By-Laws, the amendment shall continue to the voting stage
-- The ammendment must then be approved with a three-quarter vote of the active membership, following the standard voting procedure.
+- The amendment must then be approved following a two-thirds vote using the standard voting procedure.
 
 # Voting
 
-- To be decided (input via email is appreciated)
+## General Principle
+
+The voting procedures should be carried out in such a way that does not create bias towards any participants involved, and is accessible to the maximal number of club members possible.
+
+## Procedure
+
+The procedures for voting is to be determined by the current board. To ensure the integrity of the procedures, they must be approved by a club advisor. 
+
+## Tie-breaking
+
+In the event of a tie between two candidates running for a position, the decision of a split election shall fall to a vote of the Club Advisors, and if that is inconclusive, a run-off election between the top two candidates for the contested position. If all other methods of tie-breaking fail, the final decision falls to the President.
 
 # Elections
 
@@ -147,11 +152,11 @@ Elections will be held annually at the end of, but prior to the completion of, t
 
 ## Nomination
 
-Nominations of oneself or another interested party will be allowed by informing the board of the intent to run for office via mail, email or spoken word. The current Board may prescribe additional information necessary for inclusion on the election ballot, including (but not limited to), the individual's Coyote ID number or email address.
+Nominations of oneself or another interested party will be allowed by informing the board of the intent to run for office via email or spoken word. The current Board may prescribe additional information necessary for inclusion on the election ballot, including (but not limited to), the individual's Coyote ID number or email address.
 
 ## Procedure
 
-Officers shall be elected following the standard voting procedure. In the event of a tie, the decision of a split election shall fall to a vote of the Club Advisors, and if that is inconclusive, a run-off election between the top two candidates for the contested position.
+Officers shall be elected following the standard voting procedure.
 
 ## Assumption of Office
 
@@ -171,11 +176,11 @@ Standard meetings shall be attended by Officers, Cabinet members, Coordinators, 
 
 ## Quorum
 
-## Board Meetings
+### Board Meetings
 
 The attendance of half the officers constitutes a quorum for the transaction of business at a board meeting.
 
-## Standard Meetings
+### Standard Meetings
 
 A quorum for a standard meeting shall be defined as the Secretary (or another board member acting as the Secretary's temporary proxy), one other officer, and at least two members who are not board members. Voting success shall be determined by a simple majority of the attending members, not counting the officer in charge of running the meeting. All meetings must be widely announced with sufficient time for members to arrange attendance, and sufficient resources made available to accomodate that attendance.
 
@@ -187,11 +192,11 @@ Meetings are to be held at least once a month, at a schedule determined at the s
 
 ## Banking
 
-The treasury shall be kept at an off campus bank of the board of officers choosing. There shall be two signatures required on all transactions, president and treasurer.
+The treasury shall be kept at the on campus bank, and banking procedures will adhere to the guidelines set forth by the office of Student Leadership & Development.
 
 ## Dispersal of Funds
 
-In the event that this organization does not becomes and remains inactive during a two-year period, any funds remaining in the account are to be transferred to Computer Science and Engineering department, under the direction of a faculty advisor, as contributions to scholarship funds.
+In the event that this organization becomes and remains inactive during a two-year period, any funds remaining in the account are to be transferred to Computer Science and Engineering department, under the direction of a faculty advisor, as contributions to scholarship funds.
 
 # Advisors
 
