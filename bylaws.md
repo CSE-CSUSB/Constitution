@@ -12,17 +12,17 @@ The Club's advisors are Dr. Arturo Concepcion and Dr. David Turner of the School
 
 ## Dues
 
-Membership dues will be $10 per quarter, to be collected on a quarterly basis.
+Membership dues will be $10 per quarter.
 
 ## Activity Requirements
 
 All members must meet minimum activity requirements by attending at least two of any of the following:
 
 - Club meetings
-- Project meetings
+- Club project meetings
 - Club events
 - Club tabling. This counts only if a minimum of 1 hour is spent at the table acting as a representative of the club. Visiting the Club table is not sufficient for this requirement.
-- Club workshops
+- Club tutoring. This counts only if the member acted as a tutor, not as an individual receiving tutoring.
 
 # Meetings
 
