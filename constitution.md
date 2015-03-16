@@ -373,13 +373,10 @@ particularly important changes in title or duties.
 #### President
 
 The President shall be listed as the President of both the ACM Student Chapter
-and IEEE Student Chapter. This requires that the President be a dues-paying
-student member of both organizations. The CSE Club may apportion funds with
-approval of the Board to reimburse the President for payment of those dues
-during their tenure in the position. While the President is the official head
-of both student chapters, the regular administration of those organizations
-(including management of any necessary reporting) shall be left to the two Vice
-Presidents whose positions are defined below.
+and IEEE Student Chapter. While the President is the official head of both
+student chapters, the regular administration of those organizations (including
+management of any necessary reporting) shall be left to the two Vice Presidents
+whose positions are defined below.
 
 #### Vice President of the ACM Student Chapter
 
@@ -409,12 +406,18 @@ The Secretary shall be listed as the Secretary with both the ACM and IEEE, and
 shall be in charge of all currently listed constitutional duties, as well as
 any stipulated by the ACM and IEEE for that position.
 
-#### Other Board Positions
-
-All other positions shall remain as they are, and be assigned all duties they
-are currently assigned.
-
 ### Membership Dues
+
+#### Officers
+
+If the President, Vice President of ACM, Vice President of IEEE, Treasurer, or
+Secretary wishes to have their required ACM or IEEE membership fees paid for
+by the CSE Club, they may request payment from the Board, subject to approval
+by a majority vote of the Board, discounting the requesting individual. Such
+payments are allowed only for the duration of the Board member's tenure in a
+position which requires payment of relevant organizational dues.
+
+#### Members
 
 CSE Club members who wish to also be student members of the ACM or IEEE are
 responsible for their own payment of dues independent of the club. CSE Club
@@ -426,7 +429,10 @@ student memberships within the CSE Club.
 
 ### Presidential Succession
 
-To be written.
+If the President steps down or is removed from office, the position must be
+filled by either the Vice President of ACM or Vice President of IEEE, to be
+selected by a majority vote of the Board. An election is then held to fill the
+vacated Vice Presidential position, per the standard election procedure.
 
 [^studentconduct]: http://www.admissions.csusb.edu/studentconduct/documents/CONDUCT09_000.pdf
 [^acmethics]: http://www.acm.org/about/code-of-ethics
