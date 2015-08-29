@@ -1,4 +1,5 @@
-% CSE Club Constitution
+% ,
+ Constitution
 
 # Preamble
 
@@ -6,7 +7,7 @@ We, the undersigned, wishing to secure for ourselves the pleasures and benefits 
 
 # Name
 
-The official name of the organization shall be the "Computer Science and Engineering Club" and may be referred to as the Club throughout the rest of this document. The abbreviation of the Club name shall be "CSE Club".
+The official name of the organization shall be the "Computer Science and Engineering Club" and may be referred to as the Club throughout the rest of this document. The abbreviation of the Club name shall be "ACM Club".
 
 # Purpose
 
@@ -19,23 +20,15 @@ This Constitution shall be the supreme ruling document for the Computer Science 
 # Definitions
 
 - __Officer__: The elected officials who hold the primary authority and responsibility within the club.
-- __Cabinet Member__: Additional board members which are identical to officers, but do not hold financial responsibility.
+- __Cabinet Member__: Additional board members which are similar to officers, but do not hold financial responsibility.
 - __The Board__: The set of individuals containing both the officers and the cabinet members.
 - __Coordinator__: Those appointed for the purpose of assisting the club in the execution of its activities.
 
 # Membership
 
-## Categories of Membership
-
-- Membership shall be open to all individuals and groups interested in the field of Computer Science and Engineering Studies.
-- There shall be 2 categories of membership:
-    - Student members, who are members currently enrolled at CSUSB
-    - Non-student members, who are not currently enrolled at CSUSB
-
 ## Requirements
 
 - All members must pay their dues for the quarters during which they wish to retain membership. Such dues must be payed in the amount defined in the By-Laws
-- All members must meet minimum activity requirements, as set in the By-Laws. If such requirements are not met, the member (assuming all dues are paid), shall be considered inactive, and will be unable to take advantage of club offerings requiring active membership status.
 - All members must adhere to the University Code of Conduct[^studentconduct]
 - All members must adhere to the ACM Code of Ethics[^acmethics]
 
@@ -66,7 +59,7 @@ Impeachment of any Board Member will be attained only after successful completio
 - If the vote was successful, the individual being impeached is allowed a meeting in which to make their defense
 - Such a meeting will be scheduled to accommodate the individual
 - If they fail to attend such a meeting, impeachment may still continue
-- Impeachment votes shall be done via the standard voting procedure defined in this document.
+- Impeachment votes shall be done via the standard voting procedure.
 
 # Officers
 
@@ -104,13 +97,8 @@ If the President should resign, be recalled, or die, then the Vice President sha
 
 # Cabinet
 
-Cabinet members are considered full voting members of the Board, and are elected alongside officers in the yearly election process. If a vanacy in a Cabinet position shall occur mid-year, then the position may be filled via the standard appointments process.
+Cabinet members are considered full voting members of the Board who have jobs necessary for the club to function. Cabinet members shall be appointed or elected by the club, at the discretion of the officership, using the standard procedure for appointment or election, respectively. Cabinet positions shall be defined in the bylaws. 
 
-## Positions
-
-- Webmaster: The Webmaster is responsible for the administration of all internet properties owned and operated by the Club. This includes the creation and maintenance of a Club website, and the maintenance of Club email accounts.
-- Outreach Director: The Outreach Director is responsible for the control and dissemination of all Club information. This includes informing members about meeting and event times, elections, and any other events or opportunities relevant to members' interests.
-- Activities Director: The Activities Director is responsible for the coordination and organization of Club events, with particular focus on the proper completion of necessary forms, compliance with all appropriate regulations, and proper reservation of all necessary spaces.
 
 ## Requirements
 
@@ -118,7 +106,7 @@ Cabinet members are considered full voting members of the Board, and are elected
 
 # Coordinators
 
-Coordinators are appointed officials tasked with the supervision or support of a narrow and specific set of duties agreed upon by the Board. Coordinators are appointed by the President per the standard appointment procedure, and can be selected from the Board itself or from the general membership. Coordinators shall be responsible for the tasks prescribed for them, and shall be accountable for their progress to the Board. If such progress is unsatisfactory or inconsistent with the Board's expectations, the Coordinator position may be dissolved by a simple majority vote of the Board, excluding any affected Board Member.
+Coordinators are appointed officials tasked with the supervision or support of a narrow and specific set of duties agreed upon by the Board. Coordinators are appointed by the Board via the standard appointments process. Coordinators shall be responsible for the tasks prescribed for them, and shall be accountable for their progress to the Board. If such progress is unsatisfactory or inconsistent with the Board's expectations, the Coordinator position may be dissolved by a simple majority vote of the Board, excluding any affected Board Member.
 
 Coordinators shall be allowed to attend Board Meetings, but shall not be given an explicit vote.
 
@@ -138,7 +126,7 @@ The voting procedures should be carried out in such a way that does not create b
 
 ## Procedure
 
-The procedures for voting is to be determined by the current board. To ensure the integrity of the procedures, they must be approved by a club advisor. 
+The procedure for voting shall be defined in the bylaws.
 
 ## Tie-breaking
 
@@ -148,7 +136,7 @@ In the event of a tie between two candidates running for a position, the decisio
 
 ## Time
 
-Elections will be held annually at the end of, but prior to the completion of, the Spring Quarter.
+Elections will be held at minimum once per school year, typically during Spring quarter. Elections may also happen in the event of unforseen vacancies in the officership.
 
 ## Nomination
 
@@ -157,6 +145,10 @@ Nominations of oneself or another interested party will be allowed by informing 
 ## Procedure
 
 Officers shall be elected following the standard voting procedure.
+
+## Appointments
+
+Appointments will happen as determined by the Board. The procedure for appointments shall be defined in the bylaws.
 
 ## Assumption of Office
 
@@ -176,13 +168,7 @@ Standard meetings shall be attended by Officers, Cabinet members, Coordinators, 
 
 ## Quorum
 
-### Board Meetings
-
-The attendance of half the officers constitutes a quorum for the transaction of business at a board meeting.
-
-### Standard Meetings
-
-A quorum for a standard meeting shall be defined as the Secretary (or another board member acting as the Secretary's temporary proxy), one other officer, and at least two members who are not board members. Voting success shall be determined by a simple majority of the attending members, not counting the officer in charge of running the meeting. All meetings must be widely announced with sufficient time for members to arrange attendance, and sufficient resources made available to accomodate that attendance.
+A quorum for a meeting which is to trasact official business of the club shall be defined in the bylaws.
 
 ## Scheduling
 
@@ -200,7 +186,7 @@ In the event that this organization becomes and remains inactive during a two-ye
 
 # Advisors
 
-Advisors will be selected at the discretion of the Board of officers with a two-thirds majority vote. Advisors will be re-affirmed automatically on a yearly basis unless the desire to step down has been noted or the Board wishes to include other advisors. An Advisor may be removed from position via the Impeachment procedure prescribed for the removal of Board Members. At least one advisor must be an ACM Professional Member in good standing.
+Advisors will be selected at the discretion of the Board of officers with a two-thirds majority vote. Advisors will be re-affirmed automatically on a yearly basis unless the desire to step down has been noted or the Board wishes to include other advisors. An Advisor may be removed from position by a two-thirds majority vote of the Board.
 
 # Non-discrimination
 
